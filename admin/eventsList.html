@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>AlBayan - All Events</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="../vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="../vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="home.html" class="site_title">AlBayan</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_info">
+                <h2>Welcome, <span id="adminName">Admin</span></h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li><a href="home.html"><i class="fa fa-home"></i>Users</a></li>
+                  <li><a href="viewNamazTimings.html"><i class="fa fa-bank"></i>Namaz Times</a></li>
+                  <li><a href="addNamazTime.html"><i class="fa fa-bank"></i>Add Namaz Times</a></li>
+                  <li><a href="notesList.html"><i class="fa fa-bank"></i>Masjid Notes</a></li>
+                  <li><a href="messagesList.html"><i class="fa fa-group"></i>View All Messages</a></li>
+                  <li><a href="sendMessage.html"><i class="fa fa-group"></i>Send Message</a></li>
+                  <li><a onclick="logoutFunction()"><i class="fa fa-sign-out"></i>Log Out</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a id="adminName1" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="profile.html"><i class="fa fa-user pull-right"></i>Profile</a></li>
+                    <li><a href="changePassword.html"><i class="fa fa-lock pull-right"></i>Change Password</a></li>
+                    <li><a onclick="logoutFunction()"><i class="fa fa-sign-out pull-right"></i>Log Out</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>All Events <small>List of all the events</small></h2>
+                    <div class="clearfix"></div>
+                  </div>
+                  
+                  <div class="x_content">
+                    <table id="aa" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                      <thead>
+                        <tr>
+                          <th>No.</th>
+                          <th>Heading</th>
+                          <th>Message</th>
+                          <th>Created On</th>
+                          <th>Options</th>
+                        </tr>
+                      </thead>
+                      <tbody id="emptyDiv">
+                        
+                      </tbody>
+                    </table>
+                    <center><h3 id="noOne" style="display: none;">No events yet</h3></center>                                        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Datatables -->
+    <script src="../vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <script src="../vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+    <script src="../vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+    <script src="../vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+    <script src="../vendors/jszip/dist/jszip.min.js"></script>
+    <script src="../vendors/pdfmake/build/pdfmake.min.js"></script>
+    <script src="../vendors/pdfmake/build/vfs_fonts.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+    <script>
+      var temp = sessionStorage.getItem("adminSession");
+
+
+      /*function logoutFunction()
+      {
+        sessionStorage.setItem("adminSession", "");
+        window.location.href = "index.html";
+      }*/
+  
+  
+    window.onload = function()
+    {
+      getEvents();
+    }
+var sData = "";
+
+function editMessage(index, i)
+{
+  //alert(sData.DATA[index].message_id);
+  //sessionStorage.setItem("passwordChanger", sData.DATA[index].email);
+  sessionStorage.setItem("msg_id", sData.DATA[i].message_id);
+  sessionStorage.setItem("category", sData.DATA[i].category);
+  sessionStorage.setItem("content", sData.DATA[i].content);
+  sessionStorage.setItem("published_date", sData.DATA[i].published_date);
+  sessionStorage.setItem("word_count", sData.DATA[i].word_count);
+  window.location.href = "editSMS.html";
+}
+
+
+function deleteEvent(index, i) 
+{
+  sessionStorage.setItem("event_id", sData.DATA[i].id);
+  sessionStorage.setItem("event_heading", sData.DATA[i].heading);
+  sessionStorage.setItem("event_message", sData.DATA[i].message);
+  window.location.href = "deleteEvent.html";
+}
+
+ 
+  function getEvents() 
+  {
+    $.ajax({
+      type: "GET",
+      url: "localhost/albayan-institute-server/albayan-institute/server/mobileapp/api1/events/get/servercontroller.php",
+      data: { REQUEST_TYPE: "GETEVENT" },
+      dataType: 'json',
+      success: function (data) 
+      {
+        if (data.STATUS == "Success")
+        {
+          sData = data;
+          var generateHT = "";
+          
+          for (var i = 0; i < data.count; i++) 
+          {
+            generateHT+='<tr>'
+              generateHT += '<td>'+(i+1)+'</td>'
+              generateHT+='<td>'+data.DATA[i].heading+'</td>'
+              generateHT+='<td>'+data.DATA[i].message+'</td>'
+              generateHT+='<td>'+data.DATA[i].created_at+'</td>'
+              generateHT += '<td><button class="btn btn-danger" onclick="deleteEvent('+data.DATA[i].id+','+i+')" >Delete</button></td>'
+            generateHT+='</tr>'
+          }
+          document.getElementById('emptyDiv').innerHTML = generateHT;
+        }
+        else if (data.STATUS == "FAIL") 
+        {
+          var generateHT = "";
+          document.getElementById('emptyDiv').innerHTML = generateHT;
+          document.getElementById('noOne').style.display = "block";
+        }
+        else //ERROR
+        {
+          alert('Error');
+        }
+      },
+      error: function (x, t, m) {
+        if (t === "timeout") {
+          alert('Timeout');
+        } else {
+          alert(t);
+        }
+      }
+    });
+  }
+  document.getElementById('adminName').innerHTML = sessionStorage.getItem("name");
+  document.getElementById('adminName1').innerHTML = sessionStorage.getItem("name");
+    </script>
+
+  </body>
+</html>

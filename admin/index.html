@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Login</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="../vendors/animate.css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+  </head>
+
+  <body class="login">
+    <div><br><br><br><br>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
+
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form>
+              <h1>Login</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Email" id="lemail" required="" autofocus="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Password" id="lpassword" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default" id="loginButt" onclick="loginFunc()" style="background-color: rgb(213,43,30); color: white; width: 30%; font-size: 14px;">Login</a>
+              </div><br>
+              </div>
+            </form>
+          </section>
+        </div>
+
+      </div>
+    </div>
+    <script>
+function loginFunc()
+{
+  var a = document.getElementById("lemail").value;
+  var b = document.getElementById("lpassword").value;
+
+  if (a == "") 
+  {
+    alert("Please enter your email");
+    return;
+  }
+  if (b == "") 
+  {
+    alert("Please enter your password");
+    return;
+  }
+
+  $.ajax({
+    type: "POST",
+    url: "http://www.albayan.org.au/mobileapp/api1/user/Login/servercontroller.php",
+    data: { REQUEST_TYPE: "LOGIN", email: a, password: b },
+    dataType: 'json',
+    success: function (data) 
+    {
+      if (data.STATUS == "Success")
+      {
+        sessionStorage.setItem('currUser',JSON.stringify(data));
+        console.log(data);
+        //alert(JSON.stringify(data));
+        window.location = "home.html";
+      }
+      else if (data.STATUS == "FAIL") 
+      {
+        alert('Please check your credentials');
+      }
+      else //ERROR
+      {
+        alert('Error');
+      }
+    },
+    error: function (x, t, m) {
+      if (t === "timeout") {
+        alert('Timeout');
+      } else {
+        alert(t);
+      }
+    }
+  });
+}
+
+$("#lemail").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#loginButt").click();
+    }
+})
+
+$("#lpassword").keyup(function(event){
+    if(event.keyCode == 13){
+        $("#loginButt").click();
+    }
+})</script>
+  </body>
+  
+
+</html>

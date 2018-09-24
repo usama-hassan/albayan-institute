@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>AlBayan - Delete Event</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-wysiwyg -->
+    <link href="../vendors/google-code-prettify/bin/prettify.min.css" rel="stylesheet">
+    <!-- Select2 -->
+    <link href="../vendors/select2/dist/css/select2.min.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="../vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- starrr -->
+    <link href="../vendors/starrr/dist/starrr.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+ 
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="home.html" class="site_title">AlBayan</a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_info">
+                <h2>Welcome, <span id="adminName">Admin</span></h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <ul class="nav side-menu">
+                  <li><a href="home.html"><i class="fa fa-home"></i>Users</a></li>
+                  <li><a href="viewNamazTimings.html"><i class="fa fa-bank"></i>Namaz Times</a></li>
+                  <li><a href="addNamazTime.html"><i class="fa fa-bank"></i>Add Namaz Times</a></li>
+                  <li><a href="notesList.html"><i class="fa fa-bank"></i>Masjid Notes</a></li>
+                  <li><a href="messagesList.html"><i class="fa fa-group"></i>View All Messages</a></li>
+                  <li><a href="sendMessage.html"><i class="fa fa-group"></i>Send Message</a></li>
+                  <li><a onclick="logoutFunction()"><i class="fa fa-sign-out"></i>Log Out</span></a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- /sidebar menu -->
+
+
+          </div>
+        </div>
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" id="adminName1" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                  </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="profile.html"><i class="fa fa-user pull-right"></i>Profile</a></li>
+                    <li><a href="changeAdminPassword.html"><i class="fa fa-lock pull-right"></i>Change Password</a></li>
+                    <li><a onclick="logoutFunction()"><i class="fa fa-sign-out pull-right"></i>Log Out</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Delete Event</h3>
+              </div>
+
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel">
+                  <div class="x_content">
+                    <br />
+                    <br />
+                    <div class="form-group">
+                        <label for="heading" class="control-label col-md-3 col-sm-3 col-xs-12">Heading</label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="heading" class="form-control col-md-7 col-xs-12" type="text" disabled="">
+                        </div>
+                      </div>
+                      <br />
+                      <br />
+                      <div class="form-group">
+                        <label for="desc" class="control-label col-md-3 col-sm-3 col-xs-12">Content</label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <textarea rows="3" id="content" class="form-control col-md-7 col-xs-12" type="text" style="resize: none;" disabled=""></textarea>
+                        </div>
+                      </div>
+                      <br />
+                      <br />
+                      <div class="form-group">
+                        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3"><br><br>
+                          <button class="btn btn-success" onclick="goBackButt()">Go Back</button>
+                          <button class="btn btn-danger" id="deleteButt" onclick="deleteEventFunc()">Delete</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!-- bootstrap-wysiwyg -->
+    <script src="../vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
+    <script src="../vendors/jquery.hotkeys/jquery.hotkeys.js"></script>
+    <script src="../vendors/google-code-prettify/src/prettify.js"></script>
+    <!-- jQuery Tags Input -->
+    <script src="../vendors/jquery.tagsinput/src/jquery.tagsinput.js"></script>
+    <!-- Switchery -->
+    <script src="../vendors/switchery/dist/switchery.min.js"></script>
+    <!-- Select2 -->
+    <script src="../vendors/select2/dist/js/select2.full.min.js"></script>
+    <!-- Parsley -->
+    <script src="../vendors/parsleyjs/dist/parsley.min.js"></script>
+    <!-- Autosize -->
+    <script src="../vendors/autosize/dist/autosize.min.js"></script>
+    <!-- jQuery autocomplete -->
+    <script src="../vendors/devbridge-autocomplete/dist/jquery.autocomplete.min.js"></script>
+    <!-- starrr -->
+    <script src="../vendors/starrr/dist/starrr.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+      <script>
+        
+      var temp = sessionStorage.getItem("adminSession");
+
+      /*if(temp=="" || temp == null)
+      {
+        window.location.href = "index.html";        
+      }*/
+
+      window.onload = function() 
+      {
+        document.getElementById("heading").value = sessionStorage.getItem("event_heading");
+        document.getElementById("content").value = sessionStorage.getItem("event_message");
+      }
+
+      function logoutFunction()
+      {
+        sessionStorage.setItem("adminSession", "");
+        window.location.href = "index.html";
+      }    
+
+   document.getElementById("adminName").innerHTML = sessionStorage.getItem("admin_name");
+
+   document.getElementById("adminName1").innerHTML = sessionStorage.getItem("admin_name") + '<span class=" fa fa-angle-down"></span>';
+
+
+   function goBackButt()
+   {
+      window.location.href = "eventsList.html";
+   }
+   /*function resetPass() 
+   {
+      document.getElementById("oldp").value = "";
+      document.getElementById("newp").value = "";
+      document.getElementById("conp").value = "";
+   }*/
+
+   function deleteEventFunc()
+   {
+      //alert('delete button');
+      var a = sessionStorage.getItem("event_id");
+      var c = JSON.parse(sessionStorage.getItem('currUser')).AUTH_TOKEN;
+      var d = JSON.parse(sessionStorage.getItem('currUser')).ID;
+
+
+     $.ajax({
+      type: "POST",
+      url: "localhost/albayan-institute-server/albayan-institute/server/mobileapp/api1/events/delete/servercontroller.php",
+      data: { REQUEST_TYPE: "DELETEEVENT", id: d, e_id: a },
+      headers: { 'AUTH-TOKEN' : c },
+      dataType: 'json',
+      success: function (data) 
+      {
+        if (data.STATUS == "Success") 
+        {
+          alert("Event Deleted Successfully");
+          window.location.href = "eventsList.html";
+        }
+        else if (data.STATUS == "Fail") 
+        {
+          alert('Some error occured');
+        }
+        else //ERROR
+        {
+          alert('Error');
+        }
+      },
+      error: function (x, t, m) {
+        if (t === "timeout") {
+          alert('Timeout');
+        } else {
+          alert(t);
+        }
+      }
+    });
+  }
+
+  $("#oldp").keyup(function(event){
+      if(event.keyCode == 13){
+          $("#changeButt").click();
+      }
+  })
+  $("#newp").keyup(function(event){
+      if(event.keyCode == 13){
+          $("#changeButt").click();
+      }
+  })
+  $("#conp").keyup(function(event){
+      if(event.keyCode == 13){
+          $("#changeButt").click();
+      }
+  })
+
+  document.getElementById('adminName').innerHTML = sessionStorage.getItem("name");
+  document.getElementById('adminName1').innerHTML = sessionStorage.getItem("name");
+      </script>
+
+ </body>
+</html>
