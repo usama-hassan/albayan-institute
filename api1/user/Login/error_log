@@ -1,0 +1,211 @@
+[07-May-2018 00:13:56 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:13:56 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:13:56 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 00:14:16 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:14:16 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:14:16 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 00:15:19 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:15:19 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:15:19 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 00:15:36 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:15:36 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:15:36 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 00:17:16 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:17:16 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:17:16 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 00:17:59 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:17:59 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:17:59 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 00:21:28 Australia/Sydney] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 8
+[07-May-2018 00:21:28 Australia/Sydney] PHP Warning:  mysqli::prepare(): Couldn't fetch mysqli in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 14
+[07-May-2018 00:21:28 Australia/Sydney] PHP Fatal error:  Call to a member function bind_param() on null in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 15
+[07-May-2018 03:33:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[07-May-2018 03:33:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[07-May-2018 03:33:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[07-May-2018 03:33:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[07-May-2018 03:33:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[07-May-2018 03:33:51 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[07-May-2018 03:33:51 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[07-May-2018 03:33:51 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[07-May-2018 03:33:51 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[07-May-2018 03:33:51 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[07-May-2018 21:48:54 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[07-May-2018 21:48:54 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[07-May-2018 21:48:54 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[07-May-2018 21:48:54 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[07-May-2018 21:48:54 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:44:56 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:44:56 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:44:56 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:44:56 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:44:56 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:02 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:02 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:02 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:02 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:02 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:11 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:12 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:12 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:12 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:12 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:12 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:13 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:13 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:13 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:13 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:13 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:17 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:17 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:17 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:17 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:17 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:18 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:18 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:18 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:18 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:18 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:33 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:33 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:33 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:33 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:33 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:36 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:36 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:36 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:36 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:36 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:37 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:38 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:38 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:38 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:38 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:38 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:45:52 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:45:52 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:45:52 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:45:52 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:45:52 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:30 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:30 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:30 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:30 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:30 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:31 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:31 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:31 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:31 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:31 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:32 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:32 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:32 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:32 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:32 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:39 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:39 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:39 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:39 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:39 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:40 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:41 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:41 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:41 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:41 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:41 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:46:43 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:47:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:47:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:47:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:47:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:47:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:47:08 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:47:08 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:47:08 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:47:08 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:47:08 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:47:10 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:47:10 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:47:10 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:47:10 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:47:10 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:49:53 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:49:53 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:49:53 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:49:53 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:49:53 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:49:58 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:49:58 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:49:58 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:49:58 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:49:58 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:50:04 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:50:04 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:50:04 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:50:04 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:50:04 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:50:06 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:50:06 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:50:06 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:50:06 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:50:06 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[09-May-2018 21:50:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[09-May-2018 21:50:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[09-May-2018 21:50:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[09-May-2018 21:50:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[09-May-2018 21:50:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[10-May-2018 10:02:46 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[10-May-2018 10:02:46 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[10-May-2018 10:02:46 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[10-May-2018 10:02:46 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[10-May-2018 10:02:46 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[10-May-2018 10:24:42 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[10-May-2018 10:24:42 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[10-May-2018 10:24:42 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[10-May-2018 10:24:42 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[10-May-2018 10:24:42 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[10-May-2018 10:25:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[10-May-2018 10:25:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[10-May-2018 10:25:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[10-May-2018 10:25:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[10-May-2018 10:25:07 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[19-May-2018 08:57:19 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[19-May-2018 08:57:19 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[19-May-2018 08:57:19 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[19-May-2018 08:57:19 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[19-May-2018 08:57:19 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
+[11-Jun-2018 22:02:27 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servercontroller.php on line 6
+[11-Jun-2018 22:02:27 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/user/Login/servermodel.php on line 6
+[11-Jun-2018 22:02:27 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/security.php on line 6
+[11-Jun-2018 22:02:27 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/connection.php on line 6
+[11-Jun-2018 22:02:27 Australia/Sydney] PHP Warning:  Header may not contain more than a single header, new line detected in /home/albayanorg/public_html/mobileapp/api1/authClass.php on line 6
